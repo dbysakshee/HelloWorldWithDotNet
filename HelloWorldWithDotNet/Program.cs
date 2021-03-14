@@ -10,7 +10,7 @@ namespace HelloWorldWithDotNet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World With Dot Net");
+            Console.WriteLine("Hello World With Console.");
             Console.ReadKey();
         }
     }
