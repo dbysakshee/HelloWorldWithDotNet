@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace HelloWorldWithDotNet
 {
-    class Program
+    public class Demo
     {
-        static void Main(string[] args)
+        public string ShowMessage()
         {
-            Demo d = new Demo();
-
-            Console.WriteLine(d.ShowMessage());
-            Console.ReadKey();
+            return "Hey There! from separate class";
         }
     }
 }
